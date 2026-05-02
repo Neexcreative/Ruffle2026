@@ -80,7 +80,7 @@ body {
 }
 .ticker-track {
   display: flex; width: max-content;
-  animation: ticker-scroll 25s linear infinite;
+  animation: ticker-scroll 65s linear infinite;
 }
 .ticker-seg {
   white-space: nowrap;
