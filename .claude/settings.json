@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//g/trabalhos diverses/Neex Creative 2025-26/Sorteio/**)",
+      "Bash(powershell -Command \"\\(Get-Content 'G:\\\\trabalhos diversos\\\\Neex Creative 2025-26\\\\Sorteio\\\\neex-raffle-landing \\(1\\).html'\\).Count\")",
+      "Bash(powershell -Command \"Get-Content 'G:\\\\trabalhos diversos\\\\Neex Creative 2025-26\\\\Sorteio\\\\neex-raffle-landing \\(1\\).html' | Select-Object -Skip 199 -First 90\")",
+      "Bash(powershell -Command \"Get-Content 'G:\\\\trabalhos diversos\\\\Neex Creative 2025-26\\\\Sorteio\\\\neex-raffle-landing \\(1\\).html' | Select-Object -Skip 249 -First 40\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
